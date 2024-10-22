@@ -21,6 +21,7 @@ function Home() {
     return (
         <>
             <div className="container">
+                <h1 className="display-3">Productos</h1>
                 <div className="producto__contenedor mt-5 view">
                     {data.map((product) => (
                     <div class="card mb-3 p-3 producto" style={{ 'max-width': '540px;' }}>
@@ -33,7 +34,7 @@ function Home() {
                                     <h5 className="card-title">{product.title}</h5>
                                     <p className="card-text">Descripcion</p>
                                     <p className="card-text"><small className="text-body-secondary">$ {product.price}</small></p>
-                                    <button className="btn btn-primary">Agregar a Carrito</button>
+                                    <button className="btn btn-info">Agregar a Carrito</button>
                                 </div>
                             </div>
                         </div>

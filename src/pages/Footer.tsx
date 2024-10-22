@@ -5,7 +5,7 @@ function Footer() {
     return (
         <>
         <footer className="footer">
-            <p>&copy; Market Foro Todos los derechos reservados 2024</p>
+            <p>&copy; <span className="foro__span">Market Foro</span> Todos los derechos reservados 2024</p>
 
             <nav>
                 <Link className="nav-link" aria-current="page" to="/">
